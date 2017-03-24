@@ -1,7 +1,11 @@
 package ch.fhnw.mas.PHTO;
 
 public class MathUtil {
-	
+	/**
+	 * here comes some description.
+	 * @param grenze: limit number
+	 * @return: go back
+	 */
 	static long faculty(int grenze){
 		long fakultaet = 1;
 

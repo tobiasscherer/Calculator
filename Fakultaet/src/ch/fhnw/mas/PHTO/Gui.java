@@ -6,9 +6,13 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-
+/**
+ * 
+ * @author Philipp und Tobias
+ * MASAM A-SWE
+ */
 public class Gui extends JFrame {
-
+	
 	private JTextField input = new JTextField(5);
 	private JTextField output = new JTextField(5);
 	private JButton calculateButton = new JButton("Calculate");
