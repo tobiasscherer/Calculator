@@ -12,7 +12,9 @@ import javax.swing.JTextField;
  * MASAM A-SWE
  */
 public class Gui extends JFrame {
-	
+	/**
+	 * variable declarations
+	 */
 	private JTextField input = new JTextField(5);
 	private JTextField output = new JTextField(5);
 	private JButton calculateButton = new JButton("Calculate");
@@ -37,7 +39,9 @@ public class Gui extends JFrame {
 				output.setText(Long.toString(result));
 			}
 		});
-		
+	/**
+	 * size of the frame	
+	 */
 		this.setSize(300, 80);
 		this.setVisible(true);
 	}

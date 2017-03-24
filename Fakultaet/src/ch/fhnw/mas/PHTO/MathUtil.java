@@ -6,11 +6,13 @@ public class MathUtil {
 	 * @param grenze: limit number
 	 * @return: go back
 	 */
-	static long faculty(int grenze){
+	static long faculty(int limit){
 		long fakultaet = 1;
-
-		for(int zahl=1; zahl<=grenze; zahl++){
-			fakultaet = fakultaet * zahl;
+/**
+ * zahl=1 is loop number
+ */
+		for(int iterator=1; iterator<=limit; iterator++){
+			fakultaet = fakultaet * iterator;
 		}
 
 		return fakultaet;
